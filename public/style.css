@@ -1,0 +1,205 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    display: flex; 
+    flex-direction: column;
+    max-width: 100%;
+    margin:0;
+    background: url('fancy.png');
+    background-repeat: repeat;
+}
+ul{
+    margin:0;
+    padding:1em
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+}
+h2{
+    margin:0 1em;
+}
+a{
+    text-decoration: none; 
+    color:#c90000;
+}
+a:hover{
+    text-decoration: none; 
+    color:#000000;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-content: left
+}
+tbody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding:0em 2em;
+    justify-content: center;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+    width:10%;
+    background: #ffffff;
+    justify-content: left;
+    border:1px solid #e4e4e4;
+    box-shadow: 4px 4px #e4e4e4;
+    min-height: 100px;
+    margin: 0.5%;
+    padding:1em;
+}
+td{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15em;
+    min-height:auto;
+    line-break: auto;
+    min-height:20px;
+}
+.task{
+    font-size:1em;
+}
+.red{
+    color:red;
+}
+button{
+    color:red;
+    font-size:0.8em;
+    background: none;
+    border:none;
+    text-align:left;
+    padding:0;
+}
+button:hover{
+    color:black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    min-width:700px;
+    justify-content: center;
+    margin-top:2em;
+    padding:1em;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    font-size:2.25em;;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    font-size:0.8em
+}
+select{
+    font-size:0.8em;
+}
+.submit{
+    font-size:2em;
+    color:black;
+}
+.submit:hover{
+    font-size:2em;
+    color:#c90000;
+}
+.headline{
+    margin-top:10.5em;
+    font-size:2em;
+    color:#777777;
+}
+.headlineTask{
+    margin-top:2.5em;
+    font-size:3em;
+    text-align:center;
+    color:#777777;
+}
+.preloader{
+    display: flex;
+    flex-direction: column;
+    background: url('loader.gif');
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    margin-top:13em;
+    width:150px;
+    height:150px;
+}
+.sub{
+    font-size:1.5em;
+}
+.subhead{
+    margin-top:2.5em;
+    font-size:2em;
+    color:#777777;
+}
+
+@media screen and (max-width: 700px){
+    ul{
+        margin:0;
+        width:90%;
+        padding:1em;
+        position: relative;
+        z-index:12;
+    }
+    table{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    tbody{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding:4em 2em;
+        justify-content: center;
+    }
+    tr{
+        display: flex;
+        flex-direction: column;
+        width:85%;
+        background: #ffffff;
+        justify-content: left;
+        border:1px solid #e4e4e4;
+        box-shadow: 4px 4px #e4e4e4;
+        min-height: 100px;
+        margin: 0.5%;
+        padding:1em;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        min-width:250px;
+        justify-content: center;
+        margin-top:2em;
+        padding:1em;
+    }
+    .headlineTask{
+        margin-top:2.5em;
+        font-size:3em;
+        text-align:center;
+        color:#777777;
+    }
+}
+
