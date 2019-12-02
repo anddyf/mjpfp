@@ -2,7 +2,7 @@ import React from 'react'
 import {store, connect, deleteTask, fetchPost} from './Store.js'
 import { HashRouter, Link, Route } from 'react-router-dom'
 const axios = require('axios');
-const API = 'http://localhost:3000'
+const API = 'http://localhost:3000' 
 // This section will send the input value to the fetchPost function. The function will send the id and object
 // through an axios post which will update the id in the api. And the function will also update the store state. 
 const Create = connect(({ dates, location: { pathname }, match }) => {

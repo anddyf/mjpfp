@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "./node_modules/.bin/webpack -w & ./node_modules/.bin/nodemon ./server/app.js",
-    "seed":"node ./server/db/db.js",
-    "test":"jest ./test/test.js"
+    "seed": "node ./server/db/db.js",
+    "test": "jest --watch ./test/test.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +22,7 @@
     "express": "^4.17.1",
     "jest": "^24.9.0",
     "nodemon": "^2.0.1",
+    "pg": "^7.14.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",

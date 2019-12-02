@@ -935,7 +935,7 @@ eval("module.exports = function(originalModule) {\n\tif (!originalModule.webpack
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./node_modules/regenerator-runtime/runtime.js */\"./node_modules/regenerator-runtime/runtime.js\");\nmodule.exports = __webpack_require__(/*! /Users/andyferreira/Calendar/client/index.js */\"./client/index.js\");\n\n\n//# sourceURL=webpack:///multi_./node_modules/regenerator-runtime/runtime.js_./client/index.js?");
+eval("__webpack_require__(/*! ./node_modules/regenerator-runtime/runtime.js */\"./node_modules/regenerator-runtime/runtime.js\");\nmodule.exports = __webpack_require__(/*! /Users/andy.ferreira/mycalendar/mjpfp/client/index.js */\"./client/index.js\");\n\n\n//# sourceURL=webpack:///multi_./node_modules/regenerator-runtime/runtime.js_./client/index.js?");
 
 /***/ })
 

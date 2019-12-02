@@ -76,10 +76,23 @@ const syncAndSeed = async() => {
 
  syncAndSeed()
 
+ const testSpec = async() => {
+     try{
+        await conn.sync({force:true})
+        let taskThree = await Tasks.create({ id:5, tasks:null , completed: false })
+        await Calendar.create({ id:5, month:'January', day:13, year: 2018, abbrev:"Jan", taskId:taskThree.id })
+     }
+     catch(e){
+         console.log(e)
+     }
+ }
+
+
 module.exports = {
     conn,
     Sequelize,
     syncAndSeed,
     Tasks,
-    Calendar
+    Calendar,
+    testSpec
 } 
