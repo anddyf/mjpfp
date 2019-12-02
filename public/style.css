@@ -160,6 +160,9 @@ select{
         position: relative;
         z-index:12;
     }
+    li{
+        justify-content: center;
+    }
     table{
         display: flex;
         flex-direction: column;
@@ -177,7 +180,7 @@ select{
     tr{
         display: flex;
         flex-direction: column;
-        width:85%;
+        width:90%;
         background: #ffffff;
         justify-content: left;
         border:1px solid #e4e4e4;
@@ -195,8 +198,11 @@ select{
         margin-top:2em;
         padding:1em;
     }
+    .headline{
+        margin-top:3em;
+    }
     .headlineTask{
-        margin-top:2.5em;
+        margin-top:0.5em;
         font-size:3em;
         text-align:center;
         color:#777777;
