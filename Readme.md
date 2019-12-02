@@ -1,5 +1,5 @@
 Junior Phase Project
-
+/ npm i everything in module
 / You will need a database called 'calendar'
 / You will also need to seed using the script "seed" npm run seed. The seed will take a while so you need to wait until it finsih seeding (7 seconds more or less)
 / Once the seed is finish, you can run the server using script "start:dev" npm run start:dev (7 seconds more or less)
